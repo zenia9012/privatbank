@@ -1,0 +1,43 @@
+{
+    "name": "yevhenii/privatbank",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/yevhenii/privatbank",
+    "keywords": ["Laravel", "PrivatBank"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yevhenii\\PrivatBank\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yevhenii\\PrivatBank\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yevhenii\\PrivatBank\\PrivatBankServiceProvider"
+            ],
+            "aliases": {
+                "PrivatBank": "Yevhenii\\PrivatBank\\Facades\\PrivatBank"
+            }
+        }
+    }
+}
