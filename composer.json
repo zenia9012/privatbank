@@ -2,6 +2,7 @@
     "name": "yevhenii/privatbank",
     "description": "laravel API for working with PrivatBank API",
     "license": "MIT",
+    "version": "0.1",
     "authors": [
         {
             "name": "Yevhenii Riabyi",
