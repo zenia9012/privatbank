@@ -1,19 +1,16 @@
 {
     "name": "yevhenii/privatbank",
-    "description": ":description",
-    "license": "license",
+    "description": "laravel API for working with PrivatBank API",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Yevhenii Riabyi",
+            "email": "author email"
         }
     ],
-    "homepage": "https://github.com/yevhenii/privatbank",
+    "homepage": "https://github.com/zenia9012/privatbank",
     "keywords": ["Laravel", "PrivatBank"],
-    "require": {
-        "illuminate/support": "~5"
-    },
+
     "require-dev": {
         "phpunit/phpunit": "~7.0",
         "mockery/mockery": "^1.1",
