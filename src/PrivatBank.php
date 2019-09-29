@@ -2,7 +2,10 @@
 
 namespace Yevhenii\PrivatBank;
 
-class PrivatBank
-{
+use Yevhenii\PrivatBank\Api\AbstractPrivatBank;
+use Yevhenii\PrivatBank\Traits\InfoTrait;
 
+class PrivatBank extends AbstractPrivatBank
+{
+	use InfoTrait;
 }
