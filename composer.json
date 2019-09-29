@@ -10,7 +10,7 @@
     ],
     "homepage": "https://github.com/zenia9012/privatbank",
     "keywords": ["Laravel", "PrivatBank"],
-
+    "minimum-stability": "dev",
     "require-dev": {
         "phpunit/phpunit": "~7.0",
         "mockery/mockery": "^1.1",
